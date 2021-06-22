@@ -70,9 +70,9 @@ html {
 
 a {
   text-decoration: none;
-  color: $java;
+  color: $persimmon;
   &:hover {
-    color: $mirage;
+    color: $tapestry;
   }
 }
 
@@ -87,7 +87,7 @@ main {
 // Backgrounds
 
 .whisper-bg {
-  background-color: $whisper;
+  background-color: $sazerac;
 }
 
 
@@ -108,7 +108,7 @@ main {
 }
 
 .button {
-  background-color: $java;
+  background-color: $persimmon;
   color: $white;
   text-transform: uppercase;
   font-weight: bold;
@@ -118,7 +118,7 @@ main {
   margin-top: 32px;
   align-content: center;
   &:hover {
-    background-color: $mirage;
+    background-color: $tapestry;
     color: $white;
   }
 }
@@ -184,7 +184,7 @@ main {
       margin-left: -289px;
       max-width: 280px;
       width: 100%;
-      background: $java;
+      background: $persimmon;
       border: none;
       color: $white;
       border-radius: 50px;
@@ -198,7 +198,7 @@ main {
       position: relative;
       top: -1px;
       &:hover {
-        background-color: $mirage;
+        background-color: $tapestry;
       }
       @media screen and (max-width: 700px) {
         padding: 12px 32px;
@@ -210,7 +210,7 @@ main {
 }
 
 .number {
-  background-color: $minsk;
+  background-color: $whitelilac;
   border-radius: 50px;
   padding: 4px 12px;
   max-width: 35px;
@@ -225,7 +225,7 @@ main {
   a {
     font-weight: 500;
     &:last-of-type {
-      color: $mirage;
+      color: $tapestry;
     }
   }
 }
@@ -286,7 +286,7 @@ ul {
     padding-right: 0;
   }
   &:nth-child(odd) {
-    background-color: $lilac;
+    background-color: $whitelilac;
     border-radius: 5px;
     @media screen and (max-width: 450px) {
       background-color: $white;
@@ -394,7 +394,7 @@ ul {
       font-size: 14px;
     }
     &.inactive {
-      background-color: $whisper;
+      background-color: $sazerac;
     }
   }
   .next {
@@ -468,7 +468,7 @@ ul {
         }
       }
       &.current {
-        background-color: $minsk;
+        background-color: $whitelilac;
       }
       &.previous, &.next {
         @media screen and (max-width: 480px) {
@@ -503,7 +503,7 @@ form {
     margin-bottom: 16px;
     &:focus {
       outline:  none;
-      border-color: $quicksand;
+      border-color: $bizzare;
     }
   }
   .small {
@@ -544,7 +544,7 @@ header {
     }
     a {
       &.home-link {
-        color: $mirage;
+        color: $tapestry;
         font-weight: bold;
         @include flex-row;
         align-items: center;
@@ -564,7 +564,7 @@ header {
           }
         }
         &:hover {
-          color: $java;
+          color: $persimmon;
         }
       }
     }
@@ -589,7 +589,7 @@ header {
         input {
           font-size: 20px;
           box-shadow: none;
-          border: 1px solid $alto;
+          border: 1px solid $whisper;
           padding-right: 100px;
           max-width: 694px;
           width: 100%;
@@ -685,7 +685,7 @@ header {
   align-content: center;
   text-align: center;
   position: relative;
-  background: $whisper;
+  background: $sazerac;
   padding-top: 100px;
   @media screen and (max-width: 775px) {
     height: auto;
@@ -718,7 +718,7 @@ header {
       .block {
         @include flex-column;
         border-radius: 5px;
-        border-top: 5px solid $java;
+        border-top: 5px solid $persimmon;
         padding: 32px;
         max-width: 349px;
         width: 100%;
@@ -755,7 +755,7 @@ header {
         }
         &:hover {
           transition: 0.25s;
-          border-top: 5px solid $mirage;
+          border-top: 5px solid $tapestry;
           box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.07), 0px 4px 23px 8px rgba(0, 0, 0, 0.11);
           @media screen and (max-width: 650px) {
             box-shadow: none;
@@ -763,7 +763,7 @@ header {
         }
         p {
           font-size: emCal(16px);
-          color: $mirage;
+          color: $tapestry;
         }
       }
       .slick-dots {
@@ -780,7 +780,7 @@ header {
             background: none;
             border: none;
             text-indent: -999999px;
-            background-color: $minsk;
+            background-color: $whitelilac;
             width: 10px;
             height: 10px;
             border-radius: 50%;
@@ -791,12 +791,12 @@ header {
           }
           &:hover {
             button {
-              background-color: $java;
+              background-color: $persimmon;
             }
           }
           &.slick-active {
             button {
-              background-color: $java;
+              background-color: $persimmon;
             }
           }
         }
@@ -921,15 +921,15 @@ header {
       flex-direction: column;
       padding-bottom: 16px;
       .updated {
-        color: $quicksand;
+        color: $bizzare;
           margin-top: 8px;
       }
       p {
-        color: $boulder;
+        color: $tapestry;
         margin-top: 8px;
       }
       a {
-        border-bottom: 2px solid $java;
+        border-bottom: 2px solid $persimmon;
         display: flex;
         flex-shrink: 1;
         flex-grow: 0;
@@ -938,7 +938,7 @@ header {
         margin-top: 16px;
         font-weight: bold;
         &:hover {
-          border-color: $mirage;
+          border-color: $tapestry;
         }
       }
     }
@@ -964,7 +964,7 @@ header {
       }
       a {
         font-size: 24px;
-        color: $mirage;
+        color: $tapestry;
         @include flex-row;
         align-items: center;
         @media screen and (max-width: 600px) {
@@ -996,10 +996,10 @@ header {
       .block {
         @include block-shadow;
         border-radius: 5px;
-        border-top: 5px solid $java;
+        border-top: 5px solid $persimmon;
         padding: 24px;
         width: 100%;
-        color: $mirage;
+        color: $tapestry;
         font-size: 16px;
         margin-bottom: 16px;
         flex: 0 19%;
@@ -1013,7 +1013,7 @@ header {
           flex: 0 100%;
         }
         &:hover {
-          border-top-color: $mirage;
+          border-top-color: $tapestry;
         }
         .topic {
           @include flex-row;
@@ -1221,7 +1221,7 @@ header {
       p {
         font-size: 20px;
         line-height: 27.2px;
-        color: $mirage;
+        color: $tapestry;
       }
     }
     .link-list {
@@ -1269,7 +1269,7 @@ header {
 }
 
 #pagetitle {
-  background-color: $whisper;
+  background-color: $sazerac;
   .container {
     padding-top: 80px;
     padding-bottom: 180px;
@@ -1500,12 +1500,12 @@ header {
       .topics + .articles {
         margin-top: 40px;
         padding-top: 40px;
-        border-top: 1px solid $whisper;
+        border-top: 1px solid $sazerac;
       }
       .topicblock {
         max-width: 485px;
         width: 100%;
-        background-color: $lilac;
+        background-color: $whitelilac;
         margin-bottom: 24px;
         @media screen and (max-width: 1440px) {
           max-width: 48%;
@@ -1514,14 +1514,14 @@ header {
           max-width: 100%;
         }
         .title {
-          background: $whisper;
+          background: $sazerac;
           @include flex-row;
           padding: 16px;
           justify-content: space-between;
           align-items: center;
           h5 {
             font-size: 20px;
-            color: $mirage;
+            color: $tapestry;
             @include flex-row;
             align-items: center;
             @media screen and (max-width: 500px) {
@@ -1553,7 +1553,7 @@ header {
           padding: 24px;
           padding-left: 46px;
           @include flex-column;
-          color: $mirage;
+          color: $tapestry;
           @media screen and (max-width: 500px) {
             padding-left: 24px;
           }
@@ -1565,12 +1565,12 @@ header {
               font-size: 16px;
             }
             a {
-              color: $mirage;
+              color: $tapestry;
               @include flex-row;
               align-items: center;
               font-weight: 500;
               &:hover {
-                color: $java;
+                color: $persimmon;
               }
               &::before {
                 content: "";
@@ -1591,7 +1591,7 @@ header {
     .sidebar {
       max-width: 347px;
       width: 100%;
-      background-color: $mirage;
+      background-color: $tapestry;
       padding: 32px 32px;
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
@@ -1619,23 +1619,23 @@ header {
               font-size: 16px;
             }
             &:hover {
-              color: $java;
+              color: $persimmon;
               .number {
-                background-color: $minsk;
+                background-color: $whitelilac;
               }
             }
             .number {
               font-size: 16px;
-              background-color: $java;
+              background-color: $persimmon;
             }
             &.active {
-              background-color: $minsk;
+              background-color: $whitelilac;
               padding: 4px 4px 4px 16px;
               margin: -4px -4px -8px -16px;
               border-radius: 50px;
               &:hover {
                 .number {
-                  background-color: $mirage;
+                  background-color: $tapestry;
                 }
               }
             }
@@ -1652,12 +1652,12 @@ header {
             }
             a {
               font-size: 18px;
-              color: $java;
+              color: $persimmon;
               @include  flex-row;
               align-items: center;
               justify-content: flex-start;
               .number {
-                background-color: $minsk;
+                background-color: $whitelilac;
                 align-self: flex-end;
                 margin-right: 0;
                 margin-left: auto;
@@ -1665,7 +1665,7 @@ header {
               &:hover {
                 color: $white;
                 .number {
-                  background-color: $java;
+                  background-color: $persimmon;
                 }
               }
               &::before {
@@ -1698,7 +1698,7 @@ header {
     @include flex-row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid $alto;
+    border-bottom: 1px solid $whisper;
     padding-bottom: 16px;
     padding-left: 32px;
     padding-right: 40px;
@@ -1708,7 +1708,7 @@ header {
     margin-bottom: 30px;
     @media screen and (max-width: 1000px) {
       border-bottom: 0;
-      background-color: $lilac;
+      background-color: $whitelilac;
       padding: 0;
       margin: 0;
       padding: 16px;
@@ -1748,7 +1748,7 @@ header {
   .articlebody {
     p {
       font-size: 20px;
-      color: $mirage;
+      color: $tapestry;
       margin-bottom: 24px;
       line-height: 27px;
       @media screen and (max-width: 1170px) {
@@ -1766,7 +1766,7 @@ header {
     margin-left: -32px;
     margin-right: -40px;
     border: 0;
-    border-top: 1px solid $alto;
+    border-top: 1px solid $whisper;
     margin-bottom: 40px;
     @media screen and (max-width: 760px) {
       display: none;
@@ -1784,7 +1784,7 @@ header {
       @include flex-column;
     }
     span {
-      color: $boulder;
+      color: $tapestry;
       font-weight: 500;
       font-size: 17px;
     }
@@ -1859,7 +1859,7 @@ header {
 
 
 footer {
-  background-color: $mirage;
+  background-color: $deepcove;
   width: 100%;
   .container {
     @include flex-row;
