@@ -1,0 +1,55 @@
+{
+  "name": "gulp-starter",
+  "version": "0.0.1",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AnomalyInc-Pete/Xilo-Support.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-size": "^4.0.0",
+    "gulp-uglify": "^3.0.2",
+    "natives": "^1.1.6"
+  },
+  "dependencies": {
+    "beeper": "^3.0.0",
+    "fs-mkdirp-stream": "^1.0.0",
+    "gulp-vfs": "^0.1.1",
+    "lead": "^3.0.0",
+    "lodash.clonedeep": "^4.5.0",
+    "npm-install-all": "^1.1.21",
+    "object-path": "^0.11.5",
+    "object.assign": "^4.1.2",
+    "pumpify": "^2.0.1",
+    "remove-bom-stream": "^1.2.0",
+    "resolve-options": "^1.1.0",
+    "to-through": "^2.0.0",
+    "vinyl-sourcemap": "^1.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/AnomalyInc-Pete/Xilo-Support/issues"
+  },
+  "homepage": "https://github.com/AnomalyInc-Pete/Xilo-Support#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
