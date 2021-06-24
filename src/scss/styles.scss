@@ -213,7 +213,7 @@ main {
 }
 
 .number {
-  background-color: $whitelilac;
+  background-color: $persimmon;
   border-radius: 50px;
   padding: 4px 12px;
   max-width: 35px;
@@ -228,7 +228,7 @@ main {
   a {
     font-weight: 500;
     &:last-of-type {
-      color: $tapestry;
+      color: $cocoa;
     }
   }
 }
@@ -1000,15 +1000,15 @@ header {
     }
     .topics-wrap {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       flex-wrap: wrap;
       @media screen and (max-width: 1160px) {
         // justify-content: space-around;
       }
-      &::after {
-        content: "";
-        flex: auto;
-      }
+      // &::after {
+      //   content: "";
+      //   flex: auto;
+      // }
       .block {
         @include block-shadow;
         border-radius: 5px;
@@ -1018,7 +1018,8 @@ header {
         color: $cocoa;
         font-size: 16px;
         margin-bottom: 16px;
-        flex: 0 19%;
+        flex: 0 18.5%;
+        margin-left: 16px;
         @media screen and (max-width: 1160px) {
           flex: 0 32%;
         }
@@ -1236,6 +1237,7 @@ header {
       margin-bottom: 8px;
     }
     h1 {
+      color: $cocoa;
       margin-bottom: 0;
     }
   }
@@ -1437,6 +1439,7 @@ header {
       h2 {
         width: 100%;
         margin-bottom: 20px;
+        color: $cocoa;
       }
       .topics {
         max-width: 1050px;
@@ -1466,14 +1469,14 @@ header {
           max-width: 100%;
         }
         .title {
-          background: $sazerac;
+          background: $whisper;
           @include flex-row;
           padding: 16px;
           justify-content: space-between;
           align-items: center;
           h5 {
             font-size: 20px;
-            color: $tapestry;
+            color: $cocoa;
             @include flex-row;
             align-items: center;
             @media screen and (max-width: 500px) {
@@ -1505,7 +1508,7 @@ header {
           padding: 24px;
           padding-left: 46px;
           @include flex-column;
-          color: $tapestry;
+          color: $cocoa;
           @media screen and (max-width: 500px) {
             padding-left: 24px;
           }
@@ -1517,7 +1520,7 @@ header {
               font-size: 16px;
             }
             a {
-              color: $tapestry;
+              color: $cocoa;
               @include flex-row;
               align-items: center;
               font-weight: 500;
@@ -1543,7 +1546,7 @@ header {
     .sidebar {
       max-width: 347px;
       width: 100%;
-      background-color: $tapestry;
+      background-color: $bizzare;
       padding: 32px 32px;
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
@@ -1554,7 +1557,7 @@ header {
         max-width: 100%;
       }
       h3 {
-        color: $white;
+        color: $cocoa;
         margin-bottom: 16px;
       }
       .categorylist {
@@ -1563,7 +1566,7 @@ header {
           max-width: 100%;
           a {
             font-size: 20px;
-            color: $white;
+            color: $cocoa;
             @include flex-row;
             font-weight: 500;
             justify-content: space-between;
@@ -1573,7 +1576,7 @@ header {
             &:hover {
               color: $persimmon;
               .number {
-                background-color: $whitelilac;
+                background-color: $tapestry;
               }
             }
             .number {
@@ -1581,7 +1584,7 @@ header {
               background-color: $persimmon;
             }
             &.active {
-              background-color: $whitelilac;
+              background-color: $tapestry;
               padding: 4px 4px 4px 16px;
               margin: -4px -4px -8px -16px;
               border-radius: 50px;
@@ -1609,7 +1612,7 @@ header {
               align-items: center;
               justify-content: flex-start;
               .number {
-                background-color: $whitelilac;
+                background-color: $tapestry;
                 align-self: flex-end;
                 margin-right: 0;
                 margin-left: auto;
@@ -1623,7 +1626,7 @@ header {
               &::before {
                 content: "–";
                 display: flex;
-                color: $white;
+                color: $cocoa;
                 margin-right: 8px;
               }
             }
