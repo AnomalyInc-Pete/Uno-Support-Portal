@@ -110,13 +110,13 @@ main {
 .button {
   background-color: $persimmon;
   color: $white;
-  text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 0.13em;
-  border-radius: 5px;
+  border-radius: 50px;
   padding: 16px 50px;
+  padding-top: 14px;
   margin-top: 32px;
   align-content: center;
+  font-family: $secondary-font-stack;
   &:hover {
     background-color: $tapestry;
     color: $white;
@@ -150,6 +150,9 @@ main {
 .question-form {
   margin: 0 auto;
   @include flex-column;
+  h1 {
+    color: $cocoa;
+  }
   form {
     input {
       border: none;
@@ -188,15 +191,15 @@ main {
       border: none;
       color: $white;
       border-radius: 50px;
-      padding: 12px 45px;
-      font-size: 16px;
-      text-transform: uppercase;
+      padding: 16px 45px;
+      padding-top: 14px;
+      font-size: 20px;
+      line-height: 16px;
       font-weight: bold;
-      letter-spacing: 0.13em;
-      font-family: $base-font-stack;
+      font-family: $secondary-font-stack;
       cursor: pointer;
       position: relative;
-      top: -1px;
+      top: 0px;
       &:hover {
         background-color: $tapestry;
       }
@@ -544,7 +547,7 @@ header {
     }
     a {
       &.home-link {
-        color: $tapestry;
+        color: $black;
         font-weight: bold;
         @include flex-row;
         align-items: center;
@@ -701,6 +704,9 @@ header {
       margin-top: 32px;
       margin-bottom: 70px;
     }
+    h2 {
+      color: $cocoa;
+    }
     .row-wrap {
       max-width: 1075px;
       width: 100%;
@@ -763,7 +769,7 @@ header {
         }
         p {
           font-size: emCal(16px);
-          color: $tapestry;
+          color: $cocoa;
         }
       }
       .slick-dots {
@@ -865,6 +871,7 @@ header {
       align-items: center;
       align-content: center;
       h5 {
+        color: $cocoa;
         @media screen and (max-width: 420px) {
           font-size: 20px;
         }
@@ -876,6 +883,7 @@ header {
           font-weight: 500;
           flex-direction: row;
           align-items: center;
+          color: $cocoa;
           @media screen and (max-width: 490px) {
             font-size: 0;
           }
@@ -921,11 +929,12 @@ header {
       flex-direction: column;
       padding-bottom: 16px;
       .updated {
-        color: $bizzare;
+        color: $persimmon;
           margin-top: 8px;
+          font-weight: bold;
       }
       p {
-        color: $tapestry;
+        color: $cocoa;
         margin-top: 8px;
       }
       a {
@@ -962,9 +971,12 @@ header {
       @media screen and (max-width: 600px) {
         flex-flow: column;
       }
+      h2 {
+        color: $cocoa;
+      }
       a {
         font-size: 24px;
-        color: $tapestry;
+        color: $cocoa;
         @include flex-row;
         align-items: center;
         @media screen and (max-width: 600px) {
@@ -993,13 +1005,17 @@ header {
       @media screen and (max-width: 1160px) {
         // justify-content: space-around;
       }
+      &::after {
+        content: "";
+        flex: auto;
+      }
       .block {
         @include block-shadow;
         border-radius: 5px;
         border-top: 5px solid $persimmon;
         padding: 24px;
         width: 100%;
-        color: $tapestry;
+        color: $cocoa;
         font-size: 16px;
         margin-bottom: 16px;
         flex: 0 19%;
@@ -1014,6 +1030,7 @@ header {
         }
         &:hover {
           border-top-color: $tapestry;
+          color: $tapestry;
         }
         .topic {
           @include flex-row;
@@ -1033,76 +1050,7 @@ header {
               background-image: url(../images/billing-icon.svg);
             }
           }
-          &.control-panel {
-            &::before {
-              background-image: url(../images/control-panel-icon.svg);
-            }
-          }
-          &.databases {
-            &::before {
-              background-image: url(../images/databases-icon.svg);
-            }
-          }
-          &.domain-names {
-            &::before {
-              background-image: url(../images/domain-names-icon.svg);
-            }
-          }
-          &.email {
-            &::before {
-              background-image: url(../images/email-icon.svg);
-            }
-          }
-          &.ftp {
-            &::before {
-              background-image: url(../images/ftp-icon.svg);
-            }
-          }
-          &.services {
-            &::before {
-              background-image: url(../images/services-icon.svg);
-            }
-          }
-          &.ssl {
-            &::before {
-              background-image: url(../images/ssl-icon.svg);
-            }
-          }
-          &.aup {
-            &::before {
-              background-image: url(../images/aup-icon.svg);
-            }
-          }
-          &.problems {
-            &::before {
-              background-image: url(../images/problems-icon.svg);
-            }
-          }
-          &.reseller {
-            &::before {
-              background-image: url(../images/reseller-icon.svg);
-            }
-          }
-          &.shared {
-            &::before {
-              background-image: url(../images/shared-icon.svg);
-            }
-          }
-          &.dedicated {
-            &::before {
-              background-image: url(../images/dedicated-icon.svg);
-            }
-          }
-          &.cloud {
-            &::before {
-              background-image: url(../images/cloud-icon.svg);
-            }
-          }
-          &.premium {
-            &::before {
-              background-image: url(../images/premium-icon.svg);
-            }
-          }
+
         }
 
 
@@ -1125,6 +1073,7 @@ header {
     }
     .titles {
       h2 {
+        color: $cocoa;
         @media screen and (max-width: 830px) {
           text-align: center;
         }
@@ -1171,6 +1120,7 @@ header {
         h3 {
           margin-bottom: 16px;
           margin-top: 32px;
+          color: $cocoa;
           @media screen and (max-width: 960px) {
             font-size: 20px;
             margin-bottom: 8px;
@@ -1179,6 +1129,7 @@ header {
         p {
           font-size: 20px;
           line-height: 27.2px;
+          color: $cocoa;
           @media screen and (max-width: 960px) {
             font-size: 18px;
             line-height: 24px;
@@ -1214,6 +1165,7 @@ header {
       margin-bottom: 45px;
       h2 {
         margin-bottom: 20px;
+        color: $cocoa;
       }
       h4 {
         margin-bottom: 8px;
@@ -1221,7 +1173,7 @@ header {
       p {
         font-size: 20px;
         line-height: 27.2px;
-        color: $tapestry;
+        color: $cocoa;
       }
     }
     .link-list {
