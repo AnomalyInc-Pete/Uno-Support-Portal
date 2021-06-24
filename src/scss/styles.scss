@@ -1584,10 +1584,11 @@ header {
               background-color: $persimmon;
             }
             &.active {
-              background-color: $tapestry;
+              background-color: $cocoa;
               padding: 4px 4px 4px 16px;
               margin: -4px -4px -8px -16px;
               border-radius: 50px;
+              color: $white;
               &:hover {
                 .number {
                   background-color: $tapestry;
@@ -1703,7 +1704,7 @@ header {
   .articlebody {
     p {
       font-size: 20px;
-      color: $tapestry;
+      color: $cocoa;
       margin-bottom: 24px;
       line-height: 27px;
       @media screen and (max-width: 1170px) {
