@@ -818,33 +818,16 @@ header {
     @media screen and (max-width: 730px) {
       display: none;
     }
-    .left-donut, .mid-left-donut, .right-donut, .small-right-donut, {
+    .spiked-triangle, .dot-circle, .small-red-zigzag, .blue-square, .yellow-square, .red-zigzag, .blue-triangle, .spiked-circle {
       position: absolute;
     }
-    .left-donut {
-      top: 500px;
-      left: 0;
-      width: 199px;
-      height: 199px;
+    .spiked-triangle {
+      top: -20px;
+      left: -10px;
+      width: 89px;
+      height: 89px;
     }
-    .mid-left-donut {
-      top: 180px;
-      left: 190px;
-      width: 80px;
-      height: 80px;
-    }
-    .right-donut {
-      top: -155px;
-      right: -120px;
-      width: 403px;
-      height: 403px;
-    }
-    .small-right-donut {
-      top: 561px;
-      right: -60px;
-      width: 148px;
-      height: 148px;
-    }
+
   }
 }
 
