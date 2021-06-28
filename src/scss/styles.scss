@@ -827,7 +827,48 @@ header {
       width: 89px;
       height: 89px;
     }
-
+    .dot-circle {
+      top: 191px;
+      left: 214px;
+      width: 104px;
+      height: 104px;
+    }
+    .small-red-zigzag {
+      top: 405px;
+      left: 122px;
+      width: 28px;
+      height: 56px;
+    }
+    .blue-square {
+      top: 544px;
+      left: 0px;
+      width: 125px;
+      height: 184px;
+    }
+    .yellow-square {
+      top: 93px;
+      right: 85px;
+      height: 112px;
+      width: 112px;
+    }
+    .red-zigzag {
+      top: 297px;
+      right: -24px;
+      height: 38px;
+      width: 80px;
+    }
+    .blue-triangle {
+      top: 368px;
+      right: 193px;
+      width: 70px;
+      height: 74px;
+    }
+    .spiked-circle {
+      top: 510px;
+      right: 0px;
+      width: 127px;
+      height: 148px;
+    }
   }
 }
 
@@ -1227,31 +1268,62 @@ header {
   .decor {
     width: 100%;
     max-width: 100%;
-    position: relative;
+    position: absolute;
     z-index: 0;
+    top: 0;
     @media screen and (max-width: 730px) {
       display: none;
     }
-    .left-donut, .right-donut, .middle-donut {
+    .spiked-triangle, .dot-circle, .small-red-zigzag, .blue-square, .yellow-square, .red-zigzag, .blue-triangle, .spiked-circle {
       position: absolute;
     }
-    .left-donut {
-      top: 260px;
-      left: 0;
-      width: 199px;
-      height: 199px;
+    .spiked-triangle {
+      top: -20px;
+      left: -10px;
+      width: 89px;
+      height: 89px;
     }
-    .middle-donut {
-      top: -45px;
-      left: 50%;
-      width: 148px;
+    .dot-circle {
+      top: 191px;
+      left: 214px;
+      width: 104px;
+      height: 104px;
+    }
+    .small-red-zigzag {
+      top: 405px;
+      left: 122px;
+      width: 28px;
+      height: 56px;
+    }
+    .blue-square {
+      top: 544px;
+      left: 0px;
+      width: 125px;
+      height: 184px;
+    }
+    .yellow-square {
+      top: 93px;
+      right: 85px;
+      height: 112px;
+      width: 112px;
+    }
+    .red-zigzag {
+      top: 297px;
+      right: -24px;
+      height: 38px;
+      width: 80px;
+    }
+    .blue-triangle {
+      top: 368px;
+      right: 193px;
+      width: 70px;
+      height: 74px;
+    }
+    .spiked-circle {
+      top: 510px;
+      right: 0px;
+      width: 127px;
       height: 148px;
-    }
-    .right-donut {
-      top: -155px;
-      right: -120px;
-      width: 403px;
-      height: 403px;
     }
   }
 }
